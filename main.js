@@ -9,22 +9,22 @@ car1_y = 10;
 
 car2_width = 120;
 car2_height = 70;
-car2_image = "car2.png";
+car2_image = "car2updated.png";
 car2_x = 10;
 car2_y = 100;
 
-bg_image = "racingbg.jpeg"
+background_image = "racingbg.jpeg"
 
 function add(){
     background_imgTag = new Image()
     background_imgTag.onload = uploadBackground;
     background_imgTag.src = background_image;
 
-    car1_imgtag = new Image();
+    car1_imgTag = new Image();
     car1_imgTag.onload = uploadcar1;
     car1_imgTag.src = car1_image;
 
-    car2_imgtag = new Image();
+    car2_imgTag = new Image();
     car2_imgTag.onload = uploadcar2;
     car2_imgTag.src = car2_image;
 }
